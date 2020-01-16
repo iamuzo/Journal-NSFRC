@@ -21,6 +21,7 @@ enum CoreDataStack {
         return container
     }()
     
-    // direct touchpoint to the context/"sandbox"/larger Source of Truth
+    /// direct touchpoint to the context/"sandbox"/larger Source of Truth
+    /// context is a place for data to be held 
     static var context: NSManagedObjectContext { return container.viewContext }
 }

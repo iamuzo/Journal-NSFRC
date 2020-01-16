@@ -22,7 +22,6 @@ class EntryDetailViewController: UIViewController {
         super.viewDidLoad()
         designClearButton()
         updateViews()
-        // Do any additional setup after loading the view.
     }
     
     func updateViews() {
